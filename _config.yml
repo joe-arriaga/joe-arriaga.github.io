@@ -1,6 +1,6 @@
 name: Herring Cove
 author: Herring Cove
-baseurl: /herring-cove
+#baseurl: /herring-cove
 description: theme for jekyll
 github: http://www.github.com/arnp
 twitter: http://www.twitter.com/
@@ -14,7 +14,8 @@ disqus: diqus-username
 
 
 highlighter: pygments
-markdown: redcarpet
+#markdown: redcarpet
+markdown: kramdown
 redcarpet:
   extensions: ["tables"]
 
