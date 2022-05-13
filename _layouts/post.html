@@ -3,10 +3,11 @@ layout: default
 ---
 <div id="article">
   <div class="article-title">{{ page.title }}</div>
+  <h4>{{ page.subtitle }}</h4>
   <p class="meta">
-    <small>
-      &nbsp;<i class="fa fa-calendar-o"></i> {{ page.date | date_to_string}}
-    </small>
+    <!-- <small> -->
+      <!-- &nbsp;<i class="fa fa-calendar-o"></i> {{ page.date | date_to_string}} -->
+    <!-- </small> -->
   </p> <hr/>
   <div class="post">
     {{ content }}
@@ -14,4 +15,4 @@ layout: default
 </div>
 {% include share.html %}
 {% include pager.html %}
-{% include comment.html %}
+<!-- {% include comment.html %} -->
