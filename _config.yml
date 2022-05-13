@@ -1,14 +1,15 @@
-name: Herring Cove
-author: Herring Cove
+name: Joe Arriaga
+author: Joe Arriaga
 #baseurl: /herring-cove
-description: theme for jekyll
-github: http://www.github.com/arnp
-twitter: http://www.twitter.com/
-facebook: http://www.facebook.com
-linkedin: http://www.linkedin.com
-email: rnpatel[at]me.com
-location: 42°2'16"N   70°12'47"W
-disqus: diqus-username
+#baseurl: https://www.joe-arriaga.github.io ???
+#description: theme for jekyll
+github: http://www.github.com/joe-arriaga
+#twitter: http://www.twitter.com/
+#facebook: http://www.facebook.com
+linkedin: http://www.linkedin.com/in/joearriaga
+email: joearriaga2020[at]gmail.com
+#location: 42°2'16"N   70°12'47"W
+#disqus: diqus-username
 
 ##Make sure to edit the above fields, especially for disqus.
 
@@ -31,3 +32,14 @@ defaults:
       type: "posts"
     values:
       layout: "post"
+
+collections:
+  projects:
+    output: true
+    order:
+      - perceptron.md
+      - neural_net.md
+      - svm.md
+      - naive_bayes.md
+      - k-means.md
+      - q-learning.md
