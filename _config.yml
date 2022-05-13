@@ -2,11 +2,12 @@ name: Joe Arriaga
 author: Joe Arriaga
 #baseurl: /herring-cove
 description: Personal website & Portfolio of work
+#baseurl: https://www.joe-arriaga.github.io ???
 github: http://www.github.com/joe-arriaga
 #twitter: http://www.twitter.com/
 #facebook: http://www.facebook.com
-linkedin: http://www.linkedin.com/joearriaga
-#email: rnpatel[at]me.com
+linkedin: http://www.linkedin.com/in/joearriaga
+email: joearriaga2020[at]gmail.com
 #location: 42°2'16"N   70°12'47"W
 #disqus: diqus-username
 
@@ -31,3 +32,14 @@ defaults:
       type: "posts"
     values:
       layout: "post"
+
+collections:
+  projects:
+    output: true
+    order:
+      - perceptron.md
+      - neural_net.md
+      - svm.md
+      - naive_bayes.md
+      - k-means.md
+      - q-learning.md
