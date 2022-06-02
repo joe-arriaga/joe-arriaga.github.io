@@ -19,7 +19,19 @@ h1,h2,h3,h4,h5,h6
 h1
 {
   font-weight:700;
-  color:#6d7680
+  color:#d90006; /*red*/
+}
+
+h1,h2,h4,h6
+/* added by Joe Arriaga */
+{
+  color:#d90006; /*red*/
+}
+
+h3,h5
+/* added by Joe Arriaga */
+{
+  color:#6d7680 /*grey*/
 }
 
 h2,h3
@@ -165,7 +177,8 @@ p
 .brand
 {
   font-weight:800;
-  color:#6c7077;
+  /*color:#6c7077;*/
+  color:#d90006;
   font-family:"Helvetica Neue", helvetica, "Open Sans",sans-serif;
   font-size:1.4em;
   text-shadow:1px 1px #fff
