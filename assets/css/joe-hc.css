@@ -337,6 +337,13 @@ pre
   color:#d90006
 }
 
+.credit-container
+{
+  /*width:80%;*/
+  padding-right:0;
+  padding-top:15px
+}
+
 .credit
 {
   bottom:0;
@@ -346,7 +353,7 @@ pre
   padding-left:20px;
   margin-bottom:0;
   padding-bottom:5px;
-  /*padding-top:5px;*/
+  padding-top:5px;
   /*margin-top:40px;*/
   z-index:1;
   color:#cdcdcd
