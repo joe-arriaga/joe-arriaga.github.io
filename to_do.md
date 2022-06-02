@@ -16,14 +16,20 @@
     [v] check bullet levels/formatting for Trilogy
 [v] add bio?
   [x] remove <hr> from top of about_me.html?
-[ ] redesign index.html
-  [ ] center social icons?
+  [v] add profile pic
+[v] redesign index.html
+  [v] center social icons?
+  [v] add my own splash photo
+  [x] put links to sections in body?
+  [v] sort out showcase
 [v] move files to ../copy_supporting
   [x] to_do.txt
   [v] raw_cv.txt
 [ ] delete unneeded files? (for v1.0)
+[ ] remove site.time from includes/footer
 [ ] fix: favicon in history is still github's
 [v] check joe-hc.css: headings, .brand
+[v] add links to PyDataPDX
 
 [ ] ERROR /assets/js/jquery-1.10.2.min.map not found
     - delete wherever is this file called for

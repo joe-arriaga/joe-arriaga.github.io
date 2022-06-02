@@ -6,10 +6,12 @@ title: About Me
     <div class="row">
       <div class="user-card">
         <div class="row">
-          <div class="card col-md-3">
-            <img src="{{ site.baseurl }}/assets/images/self.jpg">
+          <!-- <div class="card col-md-3"> -->
+          <div class="card col-md-4">
+            <img src="{{ site.baseurl }}/assets/images/profile_pic.JPG">
           </div>
-          <div class="col-md-9">
+          <!-- <div class="col-md-9"> -->
+          <div class="col-md-8">
             <h1>Herring Cove</h1>
             <p>
              <a style="color: inherit; border-bottom: none" 
@@ -115,6 +117,7 @@ getting better all the time!
 
 ### Hobbies & Interests
 I have quite wide and varied interests.
+- Professional - Active member of <a href="https://pdx.pydata.org">PyData PDX</a> - local Data Science industry group
 - Outdoorsy - hiking, camping, skiing, surfing
 - Exercise - cycling, running
 - Intellectual - reading, urban design, economics & politics, psychology &
