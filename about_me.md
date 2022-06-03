@@ -1,17 +1,17 @@
 ---
 title: About Me
 ---
-<div class="container">
+<!-- <div class="container"> -->
   <div class="container">
     <div class="row">
       <div class="user-card">
         <div class="row">
-          <div class="card col-md-3">
-          <!-- <div class="card col-md-4"> -->
+          <!-- <div class="card col-md-3"> -->
+          <div class="card col-md-4">
             <img src="{{ site.baseurl }}/assets/images/profile_pic.JPG">
           </div>
-          <div class="col-md-9">
-          <!-- <div class="col-md-8"> -->
+          <!-- <div class="col-md-9"> -->
+          <div class="col-md-8">
             <h1>Herring Cove</h1>
             <p>
              <a style="color: inherit; border-bottom: none" 
@@ -33,7 +33,7 @@ title: About Me
       </div>
     </div>
   </div>
-</div>
+<!-- </div> -->
 
 Born and raised in Portland, Oregon I've learned several important lessons that
 serve me well:
