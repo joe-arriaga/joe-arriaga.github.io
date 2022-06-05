@@ -12,12 +12,13 @@ title: About Me
           </div>
           <!-- <div class="col-md-9"> -->
           <div class="col-md-8">
-            <h1>Herring Cove</h1>
+            <h1>About Me</h1>
             <p>
              <a style="color: inherit; border-bottom: none" 
                href="https://www.google.com/maps/place/Portland,+OR" 
                target="_blank">
-               <i class="fa fa-map-marker"></i>&nbsp;&nbsp;{{ site.location }}
+               <!-- <i class="fa fa-map-marker"></i>&nbsp;&nbsp;{{ site.location }} -->
+               <i class="fa fa-map-marker"></i>&nbsp;&nbsp;Portland, OR
              </a>
             </p>
             <p>
