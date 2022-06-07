@@ -23,6 +23,7 @@ title: Projects
     I'm generally satisfied with these projects even though they were somewhat rushed (as homework tends to be) and if I were to do them again I'd like to make the code a bit cleaner &#129335, but most of them performed well and creating them was an enjoyable and instructive learning experience.
   </p>
   {% assign ml_projects = site.projects | where:"type", "ml" %}
+  <!-- {% assign ml_projects = site.projects | where:"type", "ml" | sort: "date" %} -->
   {% for project in ml_projects %}
     <div class="container">
       <div class="project-box">

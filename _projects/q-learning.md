@@ -3,6 +3,7 @@ layout: post
 title: Q-learning
 subtitle: Automated Stock Trading
 thumbnail: assets/images/projects/q-learning/stock-market.jpg
+date: 2019-03-30
 type: ml
 ---
 

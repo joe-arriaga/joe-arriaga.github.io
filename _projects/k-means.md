@@ -4,6 +4,7 @@ title: K-means Clustering and Generation
 subtitle: Classifying and Generating Handwritten Digits
 thumbnail: assets/images/projects/k-means/number_grid.jpg
 pdf: assets/images/projects/k-means/K_means_result_visualization.pdf
+date: 2019-03-25
 type: ml
 ---
 

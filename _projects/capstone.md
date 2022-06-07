@@ -3,6 +3,7 @@ layout: post
 title: Senior Capstone Project
 subtitle: Reimbursinator - expense management application
 thumbnail: assets/images/projects/capstone/R.jpg
+date: 2019-03-24
 type: capstone
 ---
 

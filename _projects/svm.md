@@ -4,6 +4,7 @@ title: SVM Spam Filter
 subtitle: Investigating Feature Selection
 thumbnail: assets/images/projects/svm/spam_mail.png
 pdf: assets/images/projects/svm/HW3_SVM.pdf
+date: 2019-03-15
 type: ml
 ---
 

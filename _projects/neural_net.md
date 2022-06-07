@@ -4,6 +4,7 @@ title: Two-Layer Neural Network
 subtitle: Experiment Design, Network Design and Hyperparameter Tuning
 thumbnail: assets/images/projects/neural_net/neural_net.png
 pdf: assets/images/projects/neural_net/HW2_Neural_Networks.pdf
+date: 2019-03-09
 type: ml
 ---
 

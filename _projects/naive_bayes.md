@@ -4,6 +4,7 @@ title: Naive Bayes
 subtitle: Building a Better Spam Filter?
 thumbnail: assets/images/projects/naive_bayes/spam_folder.png
 pdf: assets/images/projects/naive_bayes/HW4_Naive_Bayes.pdf
+date: 2019-03-19
 type: ml
 ---
 

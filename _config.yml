@@ -36,10 +36,11 @@ defaults:
 collections:
   projects:
     output: true
-    order:
-      - perceptron.md
-      - neural_net.md
-      - svm.md
-      - naive_bayes.md
-      - k-means.md
-      - q-learning.md
+    #order:
+    #  - perceptron.md
+    #  - neural_net.md
+    #  - svm.md
+    #  - naive_bayes.md
+    #  - k-means.md
+    #  - q-learning.md
+    sort_by: date

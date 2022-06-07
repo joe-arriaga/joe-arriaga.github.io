@@ -4,6 +4,7 @@ title: Perceptron Array
 subtitle: Identifying Handwritten Digits
 thumbnail: assets/images/projects/perceptron/perceptron_array.png
 pdf: assets/images/projects/perceptron/HW1_Perceptrons.pdf
+date: 2019-01-17
 type: ml
 ---
 
