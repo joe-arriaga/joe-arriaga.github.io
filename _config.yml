@@ -43,4 +43,5 @@ collections:
     #  - naive_bayes.md
     #  - k-means.md
     #  - q-learning.md
-    sort_by: date
+    
+    #sort_by: date
