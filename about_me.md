@@ -2,38 +2,38 @@
 title: About Me
 ---
 <!-- <div class="container"> -->
-  <div class="container">
-    <div class="row">
-      <div class="user-card">
-        <div class="row">
-          <!-- <div class="card col-md-3"> -->
-          <div class="card col-md-4">
-            <img src="{{ site.baseurl }}/assets/images/profile_pic.JPG">
-          </div>
-          <!-- <div class="col-md-9"> -->
-          <div class="col-md-8">
-            <h1>About Me</h1>
-            <p>
-             <a style="color: inherit; border-bottom: none" 
-               href="https://www.google.com/maps/place/Portland,+OR" 
-               target="_blank">
-               <!-- <i class="fa fa-map-marker"></i>&nbsp;&nbsp;{{ site.location }} -->
-               <i class="fa fa-map-marker"></i>&nbsp;&nbsp;Portland, OR
-             </a>
-            </p>
-            <p>
-             <a style="color: inherit; border-bottom: none" 
-               href="mailto: {{ site.email }}" 
-               target="_blank">
-               <i class="fa fa-envelope-o"></i>&nbsp;{{ site.email }}
-             </a>
-            </p>
-            <hr />
-          </div>
+<div class="container">
+  <div class="row">
+    <!-- <div class="user-card"> -->
+      <div class="row">
+        <!-- <div class="card col-md-3"> -->
+        <div class="card col-md-4">
+          <img src="{{ site.baseurl }}/assets/images/profile_pic.JPG">
+        </div>
+        <!-- <div class="col-md-9"> -->
+        <div class="col-md-8">
+          <h1>About Me</h1>
+          <p>
+           <a style="color: inherit; border-bottom: none" 
+             href="https://www.google.com/maps/place/Portland,+OR" 
+             target="_blank">
+             <!-- <i class="fa fa-map-marker"></i>&nbsp;&nbsp;{{ site.location }} -->
+             <i class="fa fa-map-marker"></i>&nbsp;&nbsp;Portland, OR
+           </a>
+          </p>
+          <p>
+           <a style="color: inherit; border-bottom: none" 
+             href="mailto: {{ site.email }}" 
+             target="_blank">
+             <i class="fa fa-envelope-o"></i>&nbsp;{{ site.email }}
+           </a>
+          </p>
+          <hr />
         </div>
       </div>
-    </div>
+    <!-- </div> -->
   </div>
+</div>
 <!-- </div> -->
 
 Born and raised in Portland, Oregon I've learned several important lessons that

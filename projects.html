@@ -1,105 +1,106 @@
 ---
 title: Projects
 ---
-  <div class="container">
-  </div>
+<div class="container">
+</div>
 
-  <div class="project-container">
-    <h1>Projects</h1>
-    <!-- <p>Some of the things I've dabbled on.</p> -->
-    <br><center>
-    <!-- <a href="#"><span class="label label-danger">Photography</span></a> -->
-    <!-- <a href="#"><span class="label label-danger light">Coding</span></a></center> -->
-  </div>
-
-
-  <h2>Machine Learning</h2>
-  <p>
-    These projects were assigned as homework for the machine learning course at Portland State University taught by Melanie Mitchell.
-  </p>
-  <p>
-    I greatly enjoyed the course and it was the impetus for my pursuits in machine learning and data science.
-
-    I'm generally satisfied with these projects even though they were somewhat rushed (as homework tends to be) and if I were to do them again I'd like to make the code a bit cleaner &#129335, but most of them performed well and creating them was an enjoyable and instructive learning experience.
-  </p>
-  <!-- {% assign ml_projects = site.projects | where:"type", "ml" %} -->
-  {% assign ml_projects = site.projects | where:"type", "ml" | sort: "date" %}
-  {% for project in ml_projects %}
-    <div class="container">
-      <div class="project-box">
-          <a style="display: block" href="{{ project.url }}">
-        <div class="row">
-          <div class="col-md-3 project-image">
-            <img src="{{ project.thumbnail }}">
-          </div>
-          <div class="col-md-9 project-post">
-            <h1>{{project.title}}</h1>
-            <h4>{{project.subtitle}}</h4>
-            <!-- <p class="meta"><small>&nbsp;<i class="fa fa-calendar-o"></i> 2013</small></p> -->
-            <hr/>
-            {{ project.excerpt }}
-            <!-- <div class="post"> -->
-              <!-- <a href="{{ project.url }}">{{ project.title }}</a> -->
-              <!-- {{ project.url }} -->
-            <!-- </div> -->
-          </div> <!-- project-post -->
-        </div> <!-- row -->
-          </a>
-      </div> <!-- project-box -->
-    </div> <!-- container -->
-  {% endfor %}
+<div class="col-md-8">
+<!-- <div class="project-container"> -->
+  <center><h1>Projects</h1></center>
+  <!-- <p>Some of the things I've dabbled on.</p> -->
+  <br><center>
+  <!-- <a href="#"><span class="label label-danger">Photography</span></a> -->
+  <!-- <a href="#"><span class="label label-danger light">Coding</span></a></center> -->
+</div>
 
 
-  <h2>Application Development</h2>
-  <!-- {% assign capstone = site.projects | where:"type", "capstone" %} -->
-  <!-- {% for project in capstone %} -->
-    <div class="container">
-      <div class="project-box">
-          <a style="display: block" href="{{ project.url }}">
-          <!-- <a href="{{ project.url }}"> -->
-            <!-- <span style="position: absolute; width: 100%; height: 100%; top: 0; left: 0; z-index: 1;"></span> -->
-        <div class="row">
-          <div class="col-md-3 project-image">
-            <img src="{{ project.thumbnail }}">
-          </div>
-          <div class="col-md-9 project-post">
-            <!-- <h1>{{ capstone.title }}</h1> -->
-            <h1>{{ project.title }}</h1>
-            <h4>{{ project.subtitle }}</h4>
-            <!-- <a href="{{ project.url }}">{{ project.title }}</a> -->
-            <!-- <p class="meta"><small>&nbsp;<i class="fa fa-calendar-o"></i> 2013</small></p> -->
-            <hr/>
-            {{ project.excerpt | markdownify }}
-            <!-- <div class="post"> -->
-            <!-- <div> -->
-              <!-- <a href="{{ capstone.url }}">{{ capstone.title }} cap.url</a> -->
-              <!-- <a href="{{ project.url }}">{{ project.title }} cap.url</a> -->
-              <!-- <a href="{% link _projects/capstone.md %}">{{ capstone.title }} interpreted</a> -->
-              <!-- <a href="/projects/capstone.html">{{ capstone.title }} explicit</a> -->
-            <!-- </div> -->
-          </div> <!-- project-post -->
-        </div> <!-- row -->
-          </a>
-      </div> <!-- project-box -->
-    </div> <!-- container -->
-  <!-- {% endfor %} -->
+<h2>Machine Learning</h2>
+<p>
+  These projects were assigned as homework for the machine learning course at Portland State University taught by Melanie Mitchell.
+</p>
+<p>
+  I greatly enjoyed the course and it was the impetus for my pursuits in machine learning and data science.
 
-
-  {% comment %}
+  I'm generally satisfied with these projects even though they were somewhat rushed (as homework tends to be) and if I were to do them again I'd like to make the code a bit cleaner &#129335, but most of them performed well and creating them was an enjoyable and instructive learning experience.
+</p>
+<!-- {% assign ml_projects = site.projects | where:"type", "ml" %} -->
+{% assign ml_projects = site.projects | where:"type", "ml" | sort: "date" %}
+{% for project in ml_projects %}
   <div class="container">
     <div class="project-box">
+        <a style="display: block" href="{{ project.url }}">
       <div class="row">
         <div class="col-md-3 project-image">
-          <!-- <img src="http://lorempixel.com/g/400/400/"> -->
+          <img src="{{ project.thumbnail }}">
         </div>
         <div class="col-md-9 project-post">
-          <h1>Project Name</h1><h4>subheading</h4>
-          <p class="meta"><small>&nbsp;<i class="fa fa-calendar-o"></i> 2013</small></p><hr/>
-          <div class="post">
-          "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?"
-          </div>
+          <h1>{{project.title}}</h1>
+          <h4>{{project.subtitle}}</h4>
+          <!-- <p class="meta"><small>&nbsp;<i class="fa fa-calendar-o"></i> 2013</small></p> -->
+          <hr/>
+          {{ project.excerpt }}
+          <!-- <div class="post"> -->
+            <!-- <a href="{{ project.url }}">{{ project.title }}</a> -->
+            <!-- {{ project.url }} -->
+          <!-- </div> -->
+        </div> <!-- project-post -->
+      </div> <!-- row -->
+        </a>
+    </div> <!-- project-box -->
+  </div> <!-- container -->
+{% endfor %}
+
+
+<h2>Application Development</h2>
+<!-- {% assign capstone = site.projects | where:"type", "capstone" %} -->
+<!-- {% for project in capstone %} -->
+  <div class="container">
+    <div class="project-box">
+        <a style="display: block" href="{{ project.url }}">
+        <!-- <a href="{{ project.url }}"> -->
+          <!-- <span style="position: absolute; width: 100%; height: 100%; top: 0; left: 0; z-index: 1;"></span> -->
+      <div class="row">
+        <div class="col-md-3 project-image">
+          <img src="{{ project.thumbnail }}">
+        </div>
+        <div class="col-md-9 project-post">
+          <!-- <h1>{{ capstone.title }}</h1> -->
+          <h1>{{ project.title }}</h1>
+          <h4>{{ project.subtitle }}</h4>
+          <!-- <a href="{{ project.url }}">{{ project.title }}</a> -->
+          <!-- <p class="meta"><small>&nbsp;<i class="fa fa-calendar-o"></i> 2013</small></p> -->
+          <hr/>
+          {{ project.excerpt | markdownify }}
+          <!-- <div class="post"> -->
+          <!-- <div> -->
+            <!-- <a href="{{ capstone.url }}">{{ capstone.title }} cap.url</a> -->
+            <!-- <a href="{{ project.url }}">{{ project.title }} cap.url</a> -->
+            <!-- <a href="{% link _projects/capstone.md %}">{{ capstone.title }} interpreted</a> -->
+            <!-- <a href="/projects/capstone.html">{{ capstone.title }} explicit</a> -->
+          <!-- </div> -->
+        </div> <!-- project-post -->
+      </div> <!-- row -->
+        </a>
+    </div> <!-- project-box -->
+  </div> <!-- container -->
+<!-- {% endfor %} -->
+
+
+{% comment %}
+<div class="container">
+  <div class="project-box">
+    <div class="row">
+      <div class="col-md-3 project-image">
+        <!-- <img src="http://lorempixel.com/g/400/400/"> -->
+      </div>
+      <div class="col-md-9 project-post">
+        <h1>Project Name</h1><h4>subheading</h4>
+        <p class="meta"><small>&nbsp;<i class="fa fa-calendar-o"></i> 2013</small></p><hr/>
+        <div class="post">
+        "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?"
         </div>
       </div>
     </div>
   </div>
-  {% endcomment %}
+</div>
+{% endcomment %}
