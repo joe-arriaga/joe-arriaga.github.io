@@ -36,6 +36,7 @@ title: About Me
   </div>
 <!-- </div> -->
 
+### Bio
 Born and raised in Portland, Oregon I've learned several important lessons that
 serve me well:
 
@@ -70,6 +71,7 @@ serve me well:
       <li>
         Heavy rain <em>can</em> make things more difficult and a bit less pleasant, 
         but I also feel that when I go out anyway it's worth bonus points for perseverance.
+        <br>
         I also find the world to feel a lot more peaceful when everyone else decides to stay home 
         <img class="image" src="/assets/images/winking.png" width="16" height="16">.
       </li>
@@ -97,7 +99,7 @@ serve me well:
   </li> <!--- ol 3 -->
 </ol>
 
-As time goes by I realize more and more that these lessons are helpful beyond
+As time goes by I appreciate more and more that these lessons are helpful beyond
 just the weather.
 
 ### Career
