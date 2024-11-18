@@ -71,7 +71,7 @@ p
 
 .container
 {
-  width:80%;
+  width:100%;
   padding-right:0;
   padding-top:30px
 }
@@ -483,6 +483,16 @@ time
 {
   padding-bottom:10px;
   font-size:1.6em
+}
+
+.org span
+{
+  font-weight: bold;
+}
+
+.role
+{
+  font-weight: bold;
 }
 
 .project-container
