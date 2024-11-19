@@ -4,8 +4,8 @@ title: About Me
 <!-- <div class="container"> -->
 <div class="container">
   <div class="row">
-    <!-- <div class="user-card"> -->
-      <!-- <div class="row"> -->
+    <div class="user-card">
+      <div class="row">
         <!-- <div class="card col-md-3"> -->
         <div class="card col-md-4">
           <img src="{{ site.baseurl }}/assets/images/profile_pic.JPG">
@@ -14,7 +14,8 @@ title: About Me
         <div class="col-md-8">
           <h1>About Me</h1>
           <p>
-           <a style="color: inherit; border-bottom: none" 
+           <!-- <a style="color: inherit; border-bottom: none"  -->
+           <a style="color: #999; border-bottom: none" 
              href="https://www.google.com/maps/place/Portland,+OR" 
              target="_blank">
              <!-- <i class="fa fa-map-marker"></i>&nbsp;&nbsp;{{ site.location }} -->
@@ -22,21 +23,21 @@ title: About Me
            </a>
           </p>
           <p>
-           <a style="color: inherit; border-bottom: none" 
+           <!-- <a style="color: inherit; border-bottom: none"  -->
+           <a style="color: #999; border-bottom: none" 
              href="mailto: {{ site.email }}" 
              target="_blank">
              <i class="fa fa-envelope-o"></i>&nbsp;{{ site.email }}
            </a>
           </p>
-          <hr />
         </div>
-      <!-- </div> -->
-    <!-- </div> -->
+      </div>
+    </div>
   </div>
 </div>
 <!-- </div> -->
 
-### Bio
+## Bio
 Born and raised in Portland, Oregon I've learned several important lessons that
 serve me well:
 
@@ -102,7 +103,7 @@ serve me well:
 As time goes by I appreciate more and more that these lessons are helpful beyond
 just the weather.
 
-### Career
+## Career
 I have a natural curiosity which motivates me to understand how things work,
 from bicycles and astrophysics to human behavior/psychology, economics, and
 societal systems. I enjoy studying a problem and designing a solution that
@@ -130,7 +131,7 @@ areas of life as well. It is a continually-evolving process as I frequently
 tweak and improve my methods but hopefully that means the entire process is
 getting better all the time!
 
-### Hobbies & Interests
+## Hobbies & Interests
 I have quite wide and varied interests.
 - Professional - Active member of <a href="https://pdx.pydata.org">PyData PDX</a> - local Data Science industry group
 - Outdoorsy - hiking, camping, skiing, surfing
@@ -150,7 +151,7 @@ So I may never conquer a hobby but I'm satisfied if I've sincerely enjoyed my ti
 
 And when was having fun supposed to be serious anyway?
 
-### A Guiding Principle
+## A Guiding Principle
 Finally, a large influence in my life has been the good fortune to have many
 members of my extended family live nearby. They have not only provided me with a
 multitude of perspectives to consider and view the world, and much support over

@@ -408,6 +408,7 @@ pre
 img
 {
   max-width:100%;
+  height:auto;
 }
 
 #article
@@ -485,12 +486,12 @@ time
   font-size:1.6em
 }
 
-.org span
+.org span /* Doesn't seem to work, conflict? Nov 19 2024 */
 {
   font-weight: bold;
 }
 
-.role
+.role /* Only works in about half of instances, conflict? Nov 19 2024 */
 {
   font-weight: bold;
 }
