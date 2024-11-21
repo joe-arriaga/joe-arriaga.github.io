@@ -37,8 +37,8 @@ title: About Me
 <!-- </div> -->
 
 ### Bio
-Born and raised in Portland, Oregon I've learned several important lessons that
-serve me well:
+Portland, Oregon is well-known for its long, grey, drizzling winters but I think
+that growing up in that environment taught me some important lessons.
 
 <!--
   1. How to find the positives of rainy days
@@ -60,22 +60,27 @@ serve me well:
 
 <ol>
   <li> <!--- ol 1 -->
-    Find the positives of rainy days
+    Find the positives of rainy days.
     <ul>
-      <li>It's a great time to read or get work done</li>
+      <li>It's a great time to read or get work done.</li>
       <li>
         Although rain can be uncomfortable for us, it also creates many scenes of
         natural beauty.
-        Plus, rain now means being able to enjoy thriving plants and forests to come
+        <ul>
+          <li>And rain now is needed to have thriving plants and forests in the future.</li>
+        </ul>
       </li>
       <li>
         Heavy rain <em>can</em> make things more difficult and a bit less pleasant, 
         but I also feel that when I go out anyway it's worth bonus points for perseverance.
-        <br>
-        I also find the world to feel a lot more peaceful when everyone else decides to stay home 
-        <img class="image" src="/assets/images/winking.png" width="16" height="16">.
+        <ul>
+          <li>
+            I also find the world to feel a lot more peaceful when everyone else decides to stay home
+            <img class="image" src="/assets/images/winking.png" width="16" height="16">.
+          </li>
+        </ul>
       </li>
-      <li>The comfort of simply being warm and dry isn't always guaranteed, it's worth appreciating</li>
+      <li>The comfort of simply being warm and dry isn't always guaranteed, it's worth appreciating.</li>
     </ul>
 <!--
     (In a form of climate-related Stockholm Syndrome, one can actually grow to
@@ -83,13 +88,18 @@ serve me well:
 --><!-- &#129327; -->
   </li> <!--- ol 1 -->
   <li> <!--- ol 2 -->
-    Sometimes we have to go out in the cold and rain, when that happens you have a few options:
+    Sometimes we have to go out in the cold and rain, but how you approach it
+    usually determines whether it's a pleasant or painful experience.
     <ul>
-      <li>Preparation makes all the difference. "There's no such thing as bad weather, just the wrong gear"</li>
-      <li>Accept that things aren't ideal, move on, and do what you can
+      <li>Preparation makes all the difference. 
         <ul>
-          <li>As the Dutch say, "We're not made of sugar, we won't melt in the rain"</li>
-          <li>a warm shower or hot drink make a world of difference, too</li>
+          <li>"There's no such thing as bad weather, just the wrong gear"</li>
+        </ul>
+      </li>
+      <li>Accept that things aren't ideal, do what you can to mitigate difficulties and make your best effort given the circumstances.
+        <ul>
+          <li>There is a common Dutch saying: "We're not made of sugar, we won't melt in the rain."</li>
+          <li>A warm shower or hot drink make a world of difference, too.</li>
         </ul>
       </li>
     </ul>
@@ -109,9 +119,15 @@ societal systems. I enjoy studying a problem and designing a solution that
 efficiently addresses the cause and provides value to people by alleviating the
 issue.
 
-I am interested in Data Science, Data Engineering, and Machine Learning because
-they propose more comprehensive approaches to problems and
-allow us to broach problems that have previously been too complex to
+I like programming because I find it satisfying to solve problems, especially in
+an efficient or optimal way, and I enjoy learning new things. I am a generalist
+in that I am open to all types of projects and always find something interesting
+or instructional about them.
+
+Recently, I've been focusing on Data Science, Data Engineering, and Machine Learning
+as they become more widely used and more deeply embedded in technology. Used well,
+they have enormous potential to 
+allow us to more comprehensively broach problems that have previously been too complex to
 analyze systematically.
 
 It is a practice of mine to periodically review how I've spent my time and my work processes.
@@ -132,8 +148,9 @@ getting better all the time!
 
 ### Hobbies & Interests
 I have quite wide and varied interests.
-- Professional - Active member of <a href="https://pdx.pydata.org">PyData PDX</a> - local Data Science industry group
-- Outdoorsy - hiking, camping, skiing, surfing
+- Professional - I often attend local meetups, including of <a href="https://pdx.pydata.org">PyData PDX</a>
+- Volunteer - I am a committed volunteer at <a href="https://b4hpdx.org">Bikes for Humanity, PDX</a>
+- Outdoors - hiking, camping, skiing, surfing
 - Exercise - cycling, running
 - Intellectual - reading, urban design, economics & politics, psychology &
   sociology
