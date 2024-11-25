@@ -85,6 +85,7 @@ p
 
 #wrapper
 {
+  color:#202020;
   padding-left:250px;
   transition:all .5s ease 0
 }
@@ -233,7 +234,7 @@ blockquote
 
 ul,ol
 {
-  font-weight:lighter
+  /*font-weight:lighter*/
 }
 
 pre
