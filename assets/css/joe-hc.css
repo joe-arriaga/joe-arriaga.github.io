@@ -3,8 +3,7 @@
 
 body
 {
-  /*color:#202020;*/
-  color: lavender;
+  color:#202020;
   background-color:#f0f0f0;
   width:100%;
   border-top:solid #d90006;
@@ -55,7 +54,7 @@ h1 a:hover,h2 a:hover,h3 a:hover,h4 a:hover
 p
 {
   font-family:"Helvetica Neue", helvetica, "Open Sans", sans-serif;
-  font-weight:200
+  /*font-weight:200*/
 }
 
 .posts
@@ -598,7 +597,8 @@ time
 
 .user-card p
 {
-  color:#c4c4c4;
+  /*color:#c4c4c4;*/
+  color:#202020;
   font-size:small
 }
 
