@@ -325,7 +325,7 @@ pre
 #welcome-greeting > h2
 {
   font-size:2em;
-  font-weight:100;
+  /*font-weight:100;*/
   color:#2e2e2e;
   padding-top:0;
   /*line-height:140%*/
