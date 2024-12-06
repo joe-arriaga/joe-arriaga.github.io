@@ -37,7 +37,7 @@ title: About Me
 </div>
 <!-- </div> -->
 
-### Bio
+## Bio
 Portland, Oregon is well-known for its long, grey, drizzling winters but I think
 that growing up in that environment taught me some important lessons.
 
@@ -115,8 +115,14 @@ just the weather.
 
 ## Career
 I have a natural curiosity which motivates me to understand how things work,
-from bicycles and astrophysics to human behavior/psychology, economics, and
-societal systems. I enjoy studying a problem and designing a solution that
+ranging from subjects that are (mostly) straightforward and well-understood
+like bicycles and astrophysics
+to domains that are complex, messy, and often unmeasurable
+like the
+infinitely variable motivations shrouded
+in the unknowable of another person's experience that drive
+human behavior, psychology, economics, and societal systems.
+I enjoy studying a problem and designing a solution that
 efficiently addresses the cause and provides value to people by alleviating the
 issue.
 
@@ -161,10 +167,10 @@ instrument (yet)
 Zealand, Fiji, learning about other cultures and languages
 - Time-wasting - very casual gamer, watching too much Netflix and Youtube
 
-Pretty much anything has something that's interesting about it and I'm fortunate
-enough to have a passable ability at most things so almost any activity holds
-some appeal for me; and even if I'm bad, I've learned to still have fun.
-So I may never conquer a hobby but I'm satisfied if I've sincerely enjoyed my time doing it.
+Most activities have some element that I can find enjoyable to contemplate or
+attempt to master. And while I strive for excellence in important pursuits, I've
+learned that enjoying something is a much more reliable and sustainbale way to
+improve at it than demanding constant perfection.
 
 And when was having fun supposed to be serious anyway?
 
@@ -179,8 +185,8 @@ that I've developed from my experiences is that communities that last are built
 upon people within them willingly accepting some responsibiity towards one
 another, encapsulated by one of my uncle's favorite aphorisms:
 
-> If you want to go fast, go alone<br>
-> If you want to go far, go together
+> If you want to go fast, go alone,<br>
+> But if you must go far, go together
 
 Then the question that remains is simply: What communities do you want to build?
 
